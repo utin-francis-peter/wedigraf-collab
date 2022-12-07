@@ -1,0 +1,25 @@
+@import "./single-todo.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 1.5rem;
+  background: black;
+  color: white;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  display: block;
+  padding: 0.5px 16px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
